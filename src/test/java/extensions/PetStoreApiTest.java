@@ -10,7 +10,7 @@ import java.lang.annotation.Target;
 
 @Target({ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
-@ExtendWith({AllureJunit5.class, PetStoreApiTestExtension.class})
+@ExtendWith({AllureJunit5.class, PetStoreApiTestExtension.class, CommonApiTestExtension.class})
 public @interface PetStoreApiTest {
 
 }

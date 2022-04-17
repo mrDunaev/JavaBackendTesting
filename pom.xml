@@ -19,6 +19,7 @@
     <aspectj.version>1.9.7</aspectj.version>
     <cucumber.version>7.2.3</cucumber.version>
     <allure.version>2.16.1</allure.version>
+    <jackson.version>2.13.2</jackson.version>
   </properties>
 
   <dependencies>
@@ -78,6 +79,22 @@
       <groupId>com.github.javafaker</groupId>
       <artifactId>javafaker</artifactId>
       <version>1.0.2</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${jackson.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>${jackson.version}</version>
     </dependency>
 
   </dependencies>

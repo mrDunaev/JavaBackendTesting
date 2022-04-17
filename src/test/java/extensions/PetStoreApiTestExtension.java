@@ -1,6 +1,5 @@
 package extensions;
 
-import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
@@ -13,8 +12,6 @@ public class PetStoreApiTestExtension implements BeforeAllCallback {
     @Override
     public void beforeAll(ExtensionContext extensionContext) {
         RestAssured.baseURI = petStoreConfig.baseURI();
-        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-        RestAssured.filters(new AllureRestAssured());
         RestAssured.requestSpecification = new RequestSpecBuilder()
                 .setContentType(ContentType.JSON)
                 .build();
