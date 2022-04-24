@@ -1,4 +1,4 @@
-package extensions;
+package petstore.extensions;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
-import static config.PetStoreConfig.petStoreConfig;
+import static petstore.config.PetStoreConfig.petStoreConfig;
 
 public class PetStoreApiTestExtension implements BeforeAllCallback {
     @Override

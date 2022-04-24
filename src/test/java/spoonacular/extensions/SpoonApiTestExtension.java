@@ -1,4 +1,4 @@
-package extensions;
+package spoonacular.extensions;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -6,7 +6,7 @@ import io.restassured.http.ContentType;
 import org.junit.jupiter.api.extension.BeforeAllCallback;
 import org.junit.jupiter.api.extension.ExtensionContext;
 
-import static config.SpoonConfig.spoonConfig;
+import static spoonacular.config.SpoonConfig.spoonConfig;
 
 public class SpoonApiTestExtension implements BeforeAllCallback {
     private final static String API_KEY= "apiKey";

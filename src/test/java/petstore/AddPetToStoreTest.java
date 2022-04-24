@@ -1,9 +1,9 @@
 package petstore;
 
-import dto.petstore.AddPetRequest;
-import dto.petstore.Category;
-import dto.petstore.TagsItem;
-import extensions.PetStoreApiTest;
+import petstore.dto.AddPetRequest;
+import petstore.dto.Category;
+import petstore.dto.TagsItem;
+import petstore.extensions.PetStoreApiTest;
 import org.hamcrest.Matchers;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.params.ParameterizedTest;

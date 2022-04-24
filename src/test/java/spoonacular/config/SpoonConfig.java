@@ -1,4 +1,4 @@
-package config;
+package spoonacular.config;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.ConfigFactory;

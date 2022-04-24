@@ -1,6 +1,5 @@
-package dto.petstore;
+package petstore.dto;
 
-import java.util.List;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,11 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class AddPetRequest{
+public class Category{
 	private int id;
-	private Category category;
 	private String name;
-	private List<String> photoUrls;
-	private List<TagsItem> tags;
-	private String status;
 }

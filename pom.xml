@@ -20,6 +20,7 @@
     <cucumber.version>7.2.3</cucumber.version>
     <allure.version>2.16.1</allure.version>
     <jackson.version>2.13.2</jackson.version>
+    <retrofit.version>2.9.0</retrofit.version>
   </properties>
 
   <dependencies>
@@ -97,6 +98,30 @@
       <version>${jackson.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>retrofit</artifactId>
+      <version>${retrofit.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.retrofit2</groupId>
+      <artifactId>converter-jackson</artifactId>
+      <version>${retrofit.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>logging-interceptor</artifactId>
+      <version>3.14.9</version>
+    </dependency>
+
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-okhttp3</artifactId>
+      <version>${allure.version}</version>
+    </dependency>
+
   </dependencies>
 
   <build>
@@ -125,7 +150,7 @@
           </argLine>
           <systemProperties>
             <property>
-              <name>junit.jupiter.extensions.autodetection.enabled</name>
+              <name>junit.jupiter.common.autodetection.enabled</name>
               <value>true</value>
             </property>
           </systemProperties>

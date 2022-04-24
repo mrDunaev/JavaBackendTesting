@@ -1,5 +1,6 @@
-package extensions;
+package spoonacular.extensions;
 
+import common.CommonApiTestExtension;
 import io.qameta.allure.junit5.AllureJunit5;
 import org.junit.jupiter.api.extension.ExtendWith;
 

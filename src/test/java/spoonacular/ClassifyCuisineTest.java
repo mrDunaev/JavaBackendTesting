@@ -1,6 +1,6 @@
 package spoonacular;
 
-import extensions.SpoonApiTest;
+import spoonacular.extensions.SpoonApiTest;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.ResponseSpecification;
 import org.hamcrest.Matchers;

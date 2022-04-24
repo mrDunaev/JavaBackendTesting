@@ -1,10 +1,10 @@
 package spoonacular;
 
 import com.github.javafaker.Faker;
-import dto.spoon.AddToShoppingListRequest;
-import dto.spoon.CreateUserRequest;
-import dto.spoon.CreateUserResponse;
-import extensions.SpoonApiTest;
+import spoonacular.dto.AddToShoppingListRequest;
+import spoonacular.dto.CreateUserRequest;
+import spoonacular.dto.CreateUserResponse;
+import spoonacular.extensions.SpoonApiTest;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.RequestSpecification;

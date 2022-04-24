@@ -1,4 +1,4 @@
-package dto.petstore;
+package petstore.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Category{
+public class TagsItem{
 	private int id;
 	private String name;
 }

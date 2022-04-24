@@ -1,4 +1,4 @@
-package dto.spoon;
+package spoonacular.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
